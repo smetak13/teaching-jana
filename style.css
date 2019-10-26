@@ -105,6 +105,11 @@
   width: 19px;
   height: 19px;
   background: #78FC01;
+  text-align: center;
+}
+
+#znaky>div.a, div.b, div.c, div.d, div.e, div.f, div.g, div.h, div.ch, div.i, div.j, div.k:hover {
+  cursor: pointer;
 }
 
 #znaky>div.a {
