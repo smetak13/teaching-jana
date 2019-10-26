@@ -6,7 +6,7 @@ $(function() {
     }
   });
 
-  // Funkce, která odstraní classu, když přesuneme znak ze čtverce do jiného čtverce
+  
   function removeClasses(event, ui) {
     const elementClasses = Array.from(event.toElement.classList);
     if (elementClasses.includes('police')) {
