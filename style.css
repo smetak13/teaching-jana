@@ -1,0 +1,172 @@
+#mix {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  margin: 30px;
+  border: dashed black 3px;
+  width: 200px;
+  height: 200px;
+}
+
+#kos {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 30px;
+  border: dashed blue 3px;
+  width: 200px;
+  height: 200px;
+}
+
+#police {
+  position: absolute;
+  top: 530px;
+  left: 10px;
+  margin: 30px;
+  border: dashed red 3px;
+  width: 200px;
+  height: 200px;
+}
+
+#oko, #oko1, #oko2, #oko_a, #oko1_a, #oko2_a, #oko_a2, #oko1_a2, #oko2_a2 {
+  position: absolute;
+  visibility: hidden;
+  width: 150px;
+  height: 100px;
+}
+
+#oko {
+  top: 210px;
+  left: 250px;
+  border: solid black 5px;
+}
+
+#oko1 {
+  top: 310px;
+  left: 250px;
+  border: solid black 5px;
+}
+
+#oko2 {
+  top: 410px;
+  left: 250px;
+  border: solid black 5px;
+}
+
+#oko_a {
+  top: 210px;
+  left: 400px;
+  border: solid red 5px;
+}
+
+#oko1_a {
+  top: 310px;
+  left: 400px;
+  border: solid red 5px;
+}
+
+#oko2_a {
+  top: 410px;
+  left: 400px;
+  border: solid red 5px;
+}
+
+#oko_a2 {
+  top: 210px;
+  left: 550px;
+  border: solid yellow 5px;
+}
+
+#oko1_a2 {
+  top: 310px;
+  left: 550px;
+  border: solid yellow 5px;
+}
+
+#oko2_a2 {
+  top: 410px;
+  left: 550px;
+  border: solid yellow 5px;
+}
+
+#znaky {
+  position: relative;
+  top: 220px;
+  left: 0px;
+  margin: 30px;
+  border: solid black 5px;
+  width: 200px;
+  height: 200px;
+}
+
+#znaky>div.a, div.b, div.c, div.d, div.e, div.f, div.g, div.h, div.ch, div.i, div.j, div.k {
+  position: absolute;
+  padding: 5px;
+  width: 19px;
+  height: 19px;
+  background: #78FC01;
+}
+
+#znaky>div.a {
+  top: 0px;
+  left: 0px;
+}
+
+#znaky>div.b {
+  top: 0px;
+  left: 31px;
+}
+
+#znaky>div.c {
+  top: 0px;
+  left: 62px;
+}
+
+#znaky>div.d {
+  top: 70px;
+  left: 130px;
+}
+
+#znaky>div.e {
+  top: 0px;
+  left: 93px;
+}
+
+#znaky>div.f {
+  top: 0px;
+  left: 124px;
+}
+
+#znaky>div.g {
+  top: 0px;
+  left: 155px;
+}
+
+#znaky>div.h {
+  top: 33px;
+  left: 155px;
+}
+
+#znaky>div.ch {
+  top: 33px;
+  left: 124px;
+}
+
+#znaky>div.i {
+  top: 33px;
+  left: 93px;
+}
+
+#znaky>div.j {
+  top: 33px;
+  left: 62px;
+}
+
+#znaky>div.k {
+  top: 33px;
+  left: 31px;
+}
+
+.voda {
+  background-image: url(voda.jpg);
+}
